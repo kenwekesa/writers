@@ -1,0 +1,138 @@
+.bg{
+  background-image: url("../images/footer.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.grid-container{
+  display: grid;
+}
+
+.ft{
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  margin-right: 2%;
+  margin-left: 2%;
+  text-align: center;
+}
+
+.footlink{
+  text-decoration-line: none;
+  color: #fff;
+}
+  #verticalLine{
+  border-right: 1.5px solid #fff;
+  height: 300px;
+  margin-top: 5%;
+  }
+
+  #verticle{
+    padding-top: 5%;
+  }
+  
+  .list-unstyled p{
+  line-height: 49px !important;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 300;
+  }
+
+  Link{
+    text-decoration: none;
+    color: red;
+  }
+
+  .footer-copyright{
+    color: #fff;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    background-color: #61677A;
+    font-size: 1.3rem;
+  }
+
+    @media (max-width:319px) {
+      .footlink {
+          text-decoration-line: none;
+          color: #fff;
+        }
+      
+        #verticalLine {
+          border-right: 1.5px solid #fff;
+          height: 300px;
+          margin-top: 5%;
+        }
+      
+        #verticle {
+          padding-top: 5%;
+        }
+      
+        .list-unstyled p {
+          line-height: 49px !important;
+          color: #fff;
+          text-decoration: none;
+          font-size: 1.3rem;
+          font-weight: 300;
+        }
+      
+        Link {
+          text-decoration: none;
+          color: red;
+        }
+      
+        .footer-copyright {
+          color: #fff;
+          padding-top: 55px;
+          padding-bottom: 11px;
+          font-size: 1.3rem;
+        }
+    }
+  
+    @media (min-width:320px) and (max-width:480px) {
+        .footlink {
+            text-decoration-line: none;
+            color: #fff;
+          }
+        
+          #verticalLine {
+            border-right: 0.000rem solid #fff;
+            height: 300px;
+            margin-top: 5%;
+            /* display: none;
+            visibility: hidden; */
+          }
+        
+          #verticle {
+            padding-top: 5%;
+          }
+        
+          .list-unstyled p {
+            line-height: 49px !important;
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.1rem;
+            font-weight: 400;
+          }
+        
+          Link {
+            text-decoration: none;
+            color: red;
+          }
+        
+          .footer-copyright {
+            color: #fff;
+            padding-top: 55px;
+            padding-bottom: 11px;
+            font-size: 0.9rem;
+          }
+    }
+  
+    @media (min-width:481px) and (max-width:768px) {}
+  
+    @media (min-width:769px) and (max-width:1024px) {}
+  
+    @media (min-width:1025px) and (max-width:1200px) {}
+  
+    @media (min-width:1201px) {}
