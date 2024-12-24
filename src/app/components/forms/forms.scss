@@ -1,0 +1,27 @@
+.form_parent
+{
+    .buttons
+    {
+        width: 40%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        gap: 9px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 44px;
+        margin-bottom: 54px;
+        .previousBtn, .nextBtn
+        {
+            background-color: blueviolet;
+            color: white;
+            padding-right: 13px;
+            padding-left: 13px;
+            padding-top: 13px;
+            padding-bottom: 13px;
+            cursor: pointer;
+            border-radius: 4px;
+            font-size: 20px;
+        }
+    }
+}

@@ -47,25 +47,178 @@
 
 // export default CollapsibleExample;
 
+// "use client";
+// import Container from "react-bootstrap/Container";
+// import Nav from "react-bootstrap/Nav";
+// import Navbar from "react-bootstrap/Navbar";
+// import NavDropdown from "react-bootstrap/NavDropdown";
+// import Link from "next/link";
+// import "./navbar.css";
+// import { useState } from "react";
+// import MenuIcon from "@mui/icons-material/Menu";
+// import { Close } from "@mui/icons-material";
+
+// function CollapsibleExample() {
+//   const [colpasemenu, setColapseMenu] = useState(false);
+
+//   const scrollToTop = () => {
+
+//     window.scrollTo({
+//       top: 0,
+//       // behavior: 'smooth', // Add smooth scrolling behavior
+//     });
+//   };
+
+//   return (
+//     <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary nav-head">
+//       <Container>
+//         {!colpasemenu && (
+//           <MenuIcon
+//             className="menuicon"
+//             onClick={() => {
+//               setColapseMenu(!colpasemenu);
+//             }}
+//           />
+//         )}
+//         {colpasemenu && (
+//           <Close
+//             className="menuicon"
+//             onClick={() => {
+//               setColapseMenu(!colpasemenu);
+//             }}
+//           />
+//         )}
+//         <Navbar.Brand href="/" className="logo lagoe">
+//           <img src="/images/logo512.png" alt="logo" className="imlogo" />
+//           Amzon Corp
+//         </Navbar.Brand>
+//         <Navbar.Toggle aria-controls="responsive-navbar-nav mynavtwo" />
+//         <Navbar.Collapse id="responsive-navbar-nav mycollapse">
+//           <Nav className="me-auto"></Nav>
+//           <Nav className="sureonetwo">
+//             <Nav.Link>
+//               <Link onClick={scrollToTop} className="nav-li" href="/">
+//                 Home
+//               </Link>
+//             </Nav.Link>
+//             <Nav.Link>
+//               <Link onClick={scrollToTop} className="nav-li" href="/howit">
+//                 Registration
+//               </Link>
+//             </Nav.Link>
+//             <Nav.Link>
+//               <Link onClick={scrollToTop} className="nav-li" href="/prices">
+//                 Prices
+//               </Link>
+//             </Nav.Link>
+//             <Nav.Link>
+//               <Link
+//                 onClick={scrollToTop}
+//                 className="nav-li"
+//                 href="/testimonials"
+//               >
+//                 Testimonials
+//               </Link>
+//             </Nav.Link>
+//             <Nav.Link>
+//               <Link
+//                 onClick={scrollToTop}
+//                 className="nav-lii btn1"
+//                 href="/signin"
+//               >
+//                 Sign In
+//               </Link>
+//             </Nav.Link>
+//             <Nav.Link>
+//               <Link
+//                 onClick={scrollToTop}
+//                 className="nav-liii btn2"
+//                 href="/signup"
+//               >
+//                 Sign Up
+//               </Link>
+//             </Nav.Link>
+//           </Nav>
+//         </Navbar.Collapse>
+//         {colpasemenu && (
+//           <Nav className="colapsenav">
+//             <Nav.Link>
+//               <Link onClick={scrollToTop} className="nav-li" href="/">
+//                 Home
+//               </Link>
+//             </Nav.Link>
+//             <Nav.Link>
+//               <Link onClick={scrollToTop} className="nav-li" href="/howit">
+//                 Registration
+//               </Link>
+//             </Nav.Link>
+//             <Nav.Link>
+//               <Link onClick={scrollToTop} className="nav-li" href="/prices">
+//                 Prices
+//               </Link>
+//             </Nav.Link>
+//             <Nav.Link>
+//               <Link
+//                 onClick={scrollToTop}
+//                 className="nav-li"
+//                 href="/testimonials"
+//               >
+//                 Testimonials
+//               </Link>
+//             </Nav.Link>
+//             <Nav.Link>
+//               <Link
+//                 onClick={scrollToTop}
+//                 className="nav-lii btn1"
+//                 href="/signin"
+//               >
+//                 Sign In
+//               </Link>
+//             </Nav.Link>
+//             <Nav.Link>
+//               <Link
+//                 onClick={scrollToTop}
+//                 className="nav-liii btn2"
+//                 href="/signup"
+//               >
+//                 Sign Up
+//               </Link>
+//             </Nav.Link>
+//           </Nav>
+//         )}
+//       </Container>
+//     </Navbar>
+//   );
+// }
+
+// export default CollapsibleExample;
+
+"use client";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
 import Link from "next/link";
 import "./navbar.css";
-import frontmain from "../images/logo512.png";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import MenuIcon from "@mui/icons-material/Menu";
 import { Close } from "@mui/icons-material";
 
 function CollapsibleExample() {
   const [colpasemenu, setColapseMenu] = useState(false);
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    // Ensure the component is running on the client
+    setIsClient(true);
+  }, []);
 
   const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      // behavior: 'smooth', // Add smooth scrolling behavior
-    });
+    if (isClient) {
+      window.scrollTo({
+        top: 0,
+        // behavior: 'smooth', // Add smooth scrolling behavior
+      });
+    }
   };
 
   return (
@@ -74,21 +227,17 @@ function CollapsibleExample() {
         {!colpasemenu && (
           <MenuIcon
             className="menuicon"
-            onClick={() => {
-              setColapseMenu(!colpasemenu);
-            }}
+            onClick={() => setColapseMenu(!colpasemenu)}
           />
         )}
         {colpasemenu && (
           <Close
             className="menuicon"
-            onClick={() => {
-              setColapseMenu(!colpasemenu);
-            }}
+            onClick={() => setColapseMenu(!colpasemenu)}
           />
         )}
         <Navbar.Brand href="/" className="logo lagoe">
-          <img src={frontmain} alt="logo" className="imlogo" />
+          <img src="/images/logo512.png" alt="logo" className="imlogo" />
           Amzon Corp
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav mynavtwo" />
@@ -96,27 +245,35 @@ function CollapsibleExample() {
           <Nav className="me-auto"></Nav>
           <Nav className="sureonetwo">
             <Nav.Link>
-              <Link onClick={scrollToTop} className="nav-li" to="/">
+              <Link onClick={scrollToTop} className="nav-li" href="/">
                 Home
               </Link>
             </Nav.Link>
             <Nav.Link>
-              <Link onClick={scrollToTop} className="nav-li" to="/howit">
+              <Link onClick={scrollToTop} className="nav-li" href="/howit">
                 Registration
               </Link>
             </Nav.Link>
             <Nav.Link>
-              <Link onClick={scrollToTop} className="nav-li" to="/prices">
+              <Link onClick={scrollToTop} className="nav-li" href="/prices">
                 Prices
               </Link>
             </Nav.Link>
             <Nav.Link>
-              <Link onClick={scrollToTop} className="nav-li" to="/testimonials">
+              <Link
+                onClick={scrollToTop}
+                className="nav-li"
+                href="/testimonials"
+              >
                 Testimonials
               </Link>
             </Nav.Link>
             <Nav.Link>
-              <Link onClick={scrollToTop} className="nav-lii btn1" to="/signin">
+              <Link
+                onClick={scrollToTop}
+                className="nav-lii btn1"
+                href="/signin"
+              >
                 Sign In
               </Link>
             </Nav.Link>
@@ -124,7 +281,7 @@ function CollapsibleExample() {
               <Link
                 onClick={scrollToTop}
                 className="nav-liii btn2"
-                to="/signup"
+                href="/signup"
               >
                 Sign Up
               </Link>
@@ -134,27 +291,35 @@ function CollapsibleExample() {
         {colpasemenu && (
           <Nav className="colapsenav">
             <Nav.Link>
-              <Link onClick={scrollToTop} className="nav-li" to="/">
+              <Link onClick={scrollToTop} className="nav-li" href="/">
                 Home
               </Link>
             </Nav.Link>
             <Nav.Link>
-              <Link onClick={scrollToTop} className="nav-li" to="/howit">
+              <Link onClick={scrollToTop} className="nav-li" href="/howit">
                 Registration
               </Link>
             </Nav.Link>
             <Nav.Link>
-              <Link onClick={scrollToTop} className="nav-li" to="/prices">
+              <Link onClick={scrollToTop} className="nav-li" href="/prices">
                 Prices
               </Link>
             </Nav.Link>
             <Nav.Link>
-              <Link onClick={scrollToTop} className="nav-li" to="/testimonials">
+              <Link
+                onClick={scrollToTop}
+                className="nav-li"
+                href="/testimonials"
+              >
                 Testimonials
               </Link>
             </Nav.Link>
             <Nav.Link>
-              <Link onClick={scrollToTop} className="nav-lii btn1" to="/signin">
+              <Link
+                onClick={scrollToTop}
+                className="nav-lii btn1"
+                href="/signin"
+              >
                 Sign In
               </Link>
             </Nav.Link>
@@ -162,7 +327,7 @@ function CollapsibleExample() {
               <Link
                 onClick={scrollToTop}
                 className="nav-liii btn2"
-                to="/signup"
+                href="/signup"
               >
                 Sign Up
               </Link>

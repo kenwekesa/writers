@@ -1,0 +1,1955 @@
+.text-button {
+    margin-top: 20px;
+    /* margin-bottom: 79px; */
+    margin-bottom: 1.5rem;
+    border-radius: 17px;
+    background-color: #4A7FBD;
+    color: #ffff;
+    font-weight: 500;
+    text-decoration: none;
+    list-style: none;
+    max-width: 35%;
+    margin-left: 30%;
+    padding: 9px 20px;
+    border: 2px solid #4A7FBD;
+    letter-spacing: 1px;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.text-button:hover {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    color: #4A7FBD;
+    background-color: white;
+}
+
+.headingone {
+    margin-left: 0%;
+    font-size: 2rem;
+    color: #4A7FBD;
+    font-weight: 600;
+}
+
+.linkspaning {
+    color: #4A7FBD;
+}
+
+.tis {
+    margin-top: 1rem;
+}
+
+.rowele {
+    /* background-color: red; */
+    width: 60%;
+}
+
+.forlet {
+    margin-left: 25% !important;
+}
+
+.mbutton {
+    margin-left: 10% !important;
+}
+
+.tisi {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+
+
+.mabo {
+    margin-left: 6% !important;
+    border-radius: 4% !important;
+    margin-top: 1% !important;
+}
+
+.mebo {
+    border-radius: 10% !important;
+}
+
+.mibo {
+    color: #4A7FBD !important;
+}
+
+.headingon {
+    margin-left: 30% !important;
+    font-size: 1.8rem;
+    color: #333;
+    margin-top: 2% !important;
+    margin-bottom: 2% !important;
+    padding-bottom: 3% !important;
+    font-weight: 600;
+}
+.already{
+    margin-left: 43%!important;
+    margin-bottom: 10%!important;
+    padding-bottom: 3rem!important;
+}
+
+.text-buttonone{
+    margin-top: 20px;
+    /* margin-bottom: 79px; */
+    margin-bottom: 1.5rem;
+    border-radius: 17px;
+    background-color: #4A7FBD;
+    color: #ffff;
+    font-weight: 500;
+    text-decoration: none;
+    list-style: none;
+    white-space: inherit;
+    min-width: 65%!important;
+    margin-left: 30%;
+    padding: 9px 20px;
+    border: 2px solid #4A7FBD;
+    letter-spacing: 1px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.text-buttonone:hover {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    color: #4A7FBD;
+    background-color: white;
+}
+
+.mtitle{
+    margin-left: 43%!important;
+}
+
+.cardbody{
+    margin-left: 30%!important;
+}
+
+@media (max-width:319px) {
+    .text-button {
+            margin-top: 20px;
+            /* margin-bottom: 79px; */
+            margin-bottom: 1.5rem;
+            border-radius: 17px;
+            background-color: #4A7FBD;
+            color: #ffff;
+            font-weight: 500;
+            text-decoration: none;
+            list-style: none;
+            max-width: 35%;
+            margin-left: 30%;
+            padding: 5px 10px;
+            text-align: center;
+            border: 2px solid #4A7FBD;
+            letter-spacing: 1px;
+            font-size: 17px;
+            font-weight: 500;
+            cursor: pointer;
+        }
+    
+        .text-button:hover {
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            color: #4A7FBD;
+            background-color: white;
+        }
+    
+        .headingtwo {
+            margin-left: 0%;
+            font-size: 1.6rem;
+            color: #4A7FBD;
+            font-weight: 600;
+        }
+    
+        .linkspaning {
+            color: red;
+            text-align: center;
+            font-size: 0.8rem;
+        }
+    
+        .tis {
+            margin-top: 1rem;
+        }
+        .logspacing{
+            margin-bottom: 7%!important;
+            text-align: center;
+        }
+    
+        .rowele {
+            /* background-color: red; */
+            width: 100%;
+        }
+    
+        .forlet {
+            margin-left: 0% !important;
+            text-align: center;
+        }
+    
+        .mbutton {
+            margin-left: -15% !important;
+        }
+    
+        .tisi {
+            margin-top: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+    
+        .passordError {
+            color: red !important;
+        }
+    
+        .mabo {
+            margin-left: 0% !important;
+            border-radius: 4% !important;
+            margin-top: 1% !important;
+            /* width: 100%!important; */
+        }
+    
+        /* .mebo {
+            border-radius: 10% !important;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        } */
+    
+        .mibo {
+            color: #4A7FBD !important;
+        }
+    
+        .headingon {
+            margin-left: 0% !important;
+            font-size: 1.8rem;
+            color: #333;
+            margin-top: 2% !important;
+            margin-bottom: 2% !important;
+            padding-bottom: 3% !important;
+            font-weight: 600;
+        }
+    
+        .already {
+            margin-left: 12% !important;
+            margin-bottom: 10% !important;
+            padding-bottom: 3rem !important;
+        }
+    
+        .text-buttonone {
+            margin-top: 20px;
+            /* margin-bottom: 79px; */
+            margin-bottom: 1.5rem;
+            border-radius: 17px;
+            background-color: #4A7FBD;
+            color: #ffff;
+            font-weight: 500;
+            text-decoration: none;
+            list-style: none;
+            white-space: inherit;
+            min-width: 65% !important;
+            margin-left: 30%;
+            padding: 9px 20px;
+            border: 2px solid #4A7FBD;
+            letter-spacing: 1px;
+            font-size: 17px;
+            font-weight: 500;
+        }
+    
+        .text-buttonone:hover {
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            color: #4A7FBD;
+            background-color: white;
+        }
+    
+        .mtitle {
+            margin-left: 43% !important;
+        }
+    
+        .cardbody {
+            margin-left: 30% !important;
+        }
+   .logcolspan{
+    visibility: hidden;
+    display: none;
+   }
+   .lognow{
+    visibility: hidden;
+    display: none;
+   }
+   .form_body{
+    text-align: center;
+   }
+   .clsignp{
+    visibility: hidden;
+    display: none;
+   }
+   .mchoi{
+    visibility: hidden;
+    display: none;
+   }
+   .buttons{
+    margin: 0%!important;
+    padding: 0%!important;
+   }
+   .subject{
+    margin: 0%!important;
+    padding: 0%!important;
+    width: 100%;
+   }
+   /* .MessageModal{
+    margin-right: -90%!important;
+   } */
+}
+
+@media (min-width:320px) and (max-width:480px) {
+    .text-button {
+            margin-top: 20px;
+            /* margin-bottom: 79px; */
+            margin-bottom: 1.5rem;
+            border-radius: 17px;
+            background-color: #4A7FBD;
+            color: #ffff;
+            font-weight: 500;
+            text-decoration: none;
+            list-style: none;
+            max-width: 35%;
+            margin-left: 30%;
+            padding: 7px 12px;
+            text-align: center;
+            border: 2px solid #4A7FBD;
+            letter-spacing: 1px;
+            font-size: 17px;
+            font-weight: 500;
+            cursor: pointer;
+        }
+    
+        .text-button:hover {
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            color: #4A7FBD;
+            background-color: white;
+        }
+    
+        .headingtwo {
+            margin-left: 0%;
+            font-size: 1.7rem;
+            color: #4A7FBD;
+            font-weight: 600;
+        }
+    
+        .linkspaning {
+            color: red;
+            text-align: center;
+            font-size: 1rem;
+        }
+    
+        .tis {
+            margin-top: 1rem;
+        }
+    
+        .logspacing {
+            margin-bottom: 7% !important;
+            text-align: center;
+        }
+    
+                .rowele {
+                    /* background-color: red; */
+                    width: 100%;
+                }
+        
+                .forlet {
+                    margin-left: 0% !important;
+                    text-align: center;
+                }
+        
+                .mbutton {
+                    margin-left: -15% !important;
+                }
+                 .clsignp {
+                    visibility: hidden;
+                    display: none;
+                }
+    
+        .tisi {
+            margin-top: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+    
+        .passordError {
+            color: red !important;
+        }
+    
+        .mabo {
+            margin-left: 6% !important;
+            border-radius: 4% !important;
+            margin-top: 1% !important;
+        }
+    
+        .mebo {
+            border-radius: 10% !important;
+        }
+    
+        .mibo {
+            color: #4A7FBD !important;
+        }
+    
+        .headingon {
+            margin-left: 30% !important;
+            font-size: 1.8rem;
+            color: #333;
+            margin-top: 2% !important;
+            margin-bottom: 2% !important;
+            padding-bottom: 3% !important;
+            font-weight: 600;
+        }
+    
+        .already {
+            margin-left: 20% !important;
+            margin-bottom: 10% !important;
+            padding-bottom: 3rem !important;
+        }
+    
+        .text-buttonone {
+            margin-top: 20px;
+            /* margin-bottom: 79px; */
+            margin-bottom: 1.5rem;
+            border-radius: 17px;
+            background-color: #4A7FBD;
+            color: #ffff;
+            font-weight: 500;
+            text-decoration: none;
+            list-style: none;
+            white-space: inherit;
+            min-width: 65% !important;
+            margin-left: 30%;
+            padding: 9px 20px;
+            border: 2px solid #4A7FBD;
+            letter-spacing: 1px;
+            font-size: 17px;
+            font-weight: 500;
+        }
+    
+        .text-buttonone:hover {
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            color: #4A7FBD;
+            background-color: white;
+        }
+    
+        .mtitle {
+            margin-left: 43% !important;
+        }
+    
+        .cardbody {
+            margin-left: 30% !important;
+        }
+    
+        .logcolspan {
+            visibility: hidden;
+            display: none;
+        }
+    
+        .lognow {
+            visibility: hidden;
+            display: none;
+        }
+}
+
+@media (min-width:481px) and (max-width:599px) {
+.text-button {
+        margin-top: 20px;
+        /* margin-bottom: 79px; */
+        margin-bottom: 1.5rem;
+        border-radius: 17px;
+        background-color: #4A7FBD;
+        color: #ffff;
+        font-weight: 500;
+        text-decoration: none;
+        list-style: none;
+        max-width: 35%;
+        margin-left: 30%;
+        padding: 7px 12px;
+        text-align: center;
+        border: 2px solid #4A7FBD;
+        letter-spacing: 1px;
+        font-size: 17px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+    .text-button:hover {
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        color: #4A7FBD;
+        background-color: white;
+    }
+
+    .headingtwo {
+        margin-left: 0%;
+        font-size: 1.7rem;
+        color: #4A7FBD;
+        font-weight: 600;
+    }
+
+    .linkspaning {
+        color: red;
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .tis {
+        margin-top: 1rem;
+    }
+
+    .logspacing {
+        margin-bottom: 7% !important;
+        text-align: center;
+    }
+
+        .rowele {
+            /* background-color: red; */
+            width: 90%;
+            margin-left: 8% !important;
+            margin-right: 2% !important;
+        }
+    
+        .forlet {
+            margin-left: 0% !important;
+            margin-right: 0% !important;
+            text-align: center;
+        }
+    
+        .mbutton {
+            margin-left: -10% !important;
+        }
+    
+        .clsignp {
+            visibility: hidden;
+            display: none;
+        }
+
+    .tisi {
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .passordError {
+        color: red !important;
+    }
+
+    .mabo {
+        margin-left: 6% !important;
+        border-radius: 4% !important;
+        margin-top: 1% !important;
+    }
+
+    .mebo {
+        border-radius: 10% !important;
+    }
+
+    .mibo {
+        color: #4A7FBD !important;
+    }
+
+    .headingon {
+        margin-left: 30% !important;
+        font-size: 1.8rem;
+        color: #333;
+        margin-top: 2% !important;
+        margin-bottom: 2% !important;
+        padding-bottom: 3% !important;
+        font-weight: 600;
+    }
+
+    .already {
+        margin-left: 30% !important;
+        margin-bottom: 10% !important;
+        padding-bottom: 3rem !important;
+        font-weight: 630;
+    }
+
+    .text-buttonone {
+        margin-top: 20px;
+        /* margin-bottom: 79px; */
+        margin-bottom: 1.5rem;
+        border-radius: 17px;
+        background-color: #4A7FBD;
+        color: #ffff;
+        font-weight: 500;
+        text-decoration: none;
+        list-style: none;
+        white-space: inherit;
+        min-width: 65% !important;
+        margin-left: 30%;
+        padding: 9px 20px;
+        border: 2px solid #4A7FBD;
+        letter-spacing: 1px;
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+    .text-buttonone:hover {
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        color: #4A7FBD;
+        background-color: white;
+    }
+
+    .mtitle {
+        margin-left: 43% !important;
+    }
+
+    .cardbody {
+        margin-left: 30% !important;
+    }
+
+    .logcolspan {
+        visibility: hidden;
+        display: none;
+    }
+
+    .lognow {
+        visibility: hidden;
+        display: none;
+    }
+    .loginsizt{
+        padding-left: 13%!important;
+        padding-right: 13%!important;
+    }
+}
+
+@media (min-width:600px) and (max-width:768px) {
+.text-button {
+        margin-top: 20px;
+        /* margin-bottom: 79px; */
+        margin-bottom: 1.5rem;
+        border-radius: 17px;
+        background-color: #4A7FBD;
+        color: #ffff;
+        font-weight: 500;
+        text-decoration: none;
+        list-style: none;
+        max-width: 35%;
+        margin-left: 30%;
+        padding: 7px 12px;
+        text-align: center;
+        border: 2px solid #4A7FBD;
+        letter-spacing: 1px;
+        font-size: 17px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+    .text-button:hover {
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        color: #4A7FBD;
+        background-color: white;
+    }
+
+    .headingone {
+        margin-left: 0%;
+        font-size: 1.7rem;
+        color: #4A7FBD;
+        font-weight: 600;
+    }
+
+    .linkspaning {
+        color: red;
+        text-align: center;
+        font-size: 1.1rem;
+    }
+
+    .tis {
+        margin-top: 1rem;
+    }
+
+    .logspacing {
+        margin-bottom: 7% !important;
+        text-align: center;
+    }
+    .form_bodyi{
+        margin: 0%!important;
+    }
+         .headingtwo {
+             /* margin-left: 10%; */
+             font-size: 1.7rem;
+             color: #4A7FBD;
+             font-weight: 600;
+             padding: 0%!important;
+             margin: 0%!important;
+             margin-top: 10%!important;
+             margin-bottom: 2%!important;
+         }
+         .form_divi{
+            margin: 0%!important;
+            padding: 0%!important;
+         }
+         .form_bodyi{
+            text-align: center!important;
+         }
+         .formlogtwoy{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+         }
+        .rowele {
+            width: 100%;
+        }
+    
+        .forlet {
+            margin: 0%!important;
+            padding: 0%!important;
+        }
+    
+        .mbutton {
+           margin-right: 30%;
+        }
+    
+        .clsignp {
+            visibility: hidden;
+            display: none;
+        }
+
+    .tisi {
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .passordError {
+        color: red !important;
+    }
+
+    .mabo {
+        margin-left: 6% !important;
+        border-radius: 4% !important;
+        margin-top: 1% !important;
+    }
+
+    .mebo {
+        border-radius: 10% !important;
+    }
+
+    .mibo {
+        color: #4A7FBD !important;
+    }
+
+    .headingon {
+        margin-left: 30% !important;
+        font-size: 1.8rem;
+        color: #333;
+        margin-top: 2% !important;
+        margin-bottom: 2% !important;
+        padding-bottom: 3% !important;
+        font-weight: 600;
+    }
+
+    .already {
+        margin-left: 31% !important;
+        margin-bottom: 10% !important;
+        padding-bottom: 3rem !important;
+        font-weight: 630;
+    }
+
+    .text-buttonone {
+        margin-top: 20px;
+        /* margin-bottom: 79px; */
+        margin-bottom: 1.5rem;
+        border-radius: 17px;
+        background-color: #4A7FBD;
+        color: #ffff;
+        font-weight: 500;
+        text-decoration: none;
+        list-style: none;
+        white-space: inherit;
+        min-width: 65% !important;
+        margin-left: 30%;
+        padding: 9px 20px;
+        border: 2px solid #4A7FBD;
+        letter-spacing: 1px;
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+    .text-buttonone:hover {
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        color: #4A7FBD;
+        background-color: white;
+    }
+
+    .mtitle {
+        margin-left: 43% !important;
+    }
+
+    .cardbody {
+        margin-left: 30% !important;
+    }
+
+    .logcolspan {
+        visibility: hidden;
+        display: none;
+    }
+
+    .lognow {
+        visibility: hidden;
+        display: none;
+    }
+
+    .loginsizt {
+        padding-left: 25% !important;
+        padding-right: 25% !important;
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+.text-button {
+        margin-top: 20px;
+        /* margin-bottom: 79px; */
+        margin-bottom: 1.5rem;
+        border-radius: 17px;
+        background-color: #4A7FBD;
+        color: #ffff;
+        font-weight: 500;
+        text-decoration: none;
+        list-style: none;
+        max-width: 35%;
+        margin-left: 30%;
+        padding: 7px 12px;
+        text-align: center;
+        border: 2px solid #4A7FBD;
+        letter-spacing: 1px;
+        font-size: 17px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+    .text-button:hover {
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        color: #4A7FBD;
+        background-color: white;
+    }
+
+    .headingone {
+        margin-left: 0%;
+        font-size: 2rem;
+        color: #4A7FBD;
+        font-weight: 600;
+    }
+
+    .linkspaning {
+        color: red;
+        text-align: center;
+        font-size: 1.1rem;
+    }
+
+    .tis {
+        margin-top: 1rem;
+    }
+
+    .logspacing {
+        margin-bottom: 4% !important;
+        text-align: center;
+    }
+
+                                .form_bodyi {
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                }
+                
+                                .headingtwo {
+                                    /* margin-left: 10%; */
+                                    font-size: 1.7rem;
+                                    color: #4A7FBD;
+                                    font-weight: 600;
+                                    padding: 0% !important;
+                                    margin: 0% !important;
+                                    margin-top: 10% !important;
+                                    margin-bottom: 2% !important;
+                                }
+                
+                                .form_divi {
+                                    margin: 0% !important;
+                                    padding: 0% !important;
+                                }
+                
+                                .form_bodyi {
+                                    text-align: center !important;
+                                }
+                
+                                .formlogtwoy {
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                }
+                
+                                .rowele {
+                                    width: 100%;
+                                }
+                
+                                .forlet {
+                                    margin: 0% !important;
+                                    padding: 0% !important;
+                                }
+                
+                                .mbutton {
+                                    margin-right: 30%;
+                                }
+                
+                                .clsignp {
+                                    visibility: hidden;
+                                    display: none;
+                                }
+
+    .tisi {
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .passordError {
+        color: red !important;
+    }
+
+    .mabo {
+        margin-left: 6% !important;
+        border-radius: 4% !important;
+        margin-top: 1% !important;
+    }
+
+    .mebo {
+        border-radius: 10% !important;
+    }
+
+    .mibo {
+        color: #4A7FBD !important;
+    }
+
+    .headingon {
+        margin-left: 30% !important;
+        font-size: 1.8rem;
+        color: #333;
+        margin-top: 2% !important;
+        margin-bottom: 2% !important;
+        padding-bottom: 3% !important;
+        font-weight: 600;
+    }
+
+    .already {
+        margin-left: 36% !important;
+        margin-bottom: 10% !important;
+        padding-bottom: 3rem !important;
+        font-weight: 630;
+    }
+
+    .text-buttonone {
+        margin-top: 20px;
+        /* margin-bottom: 79px; */
+        margin-bottom: 1.5rem;
+        border-radius: 17px;
+        background-color: #4A7FBD;
+        color: #ffff;
+        font-weight: 500;
+        text-decoration: none;
+        list-style: none;
+        white-space: inherit;
+        min-width: 65% !important;
+        margin-left: 30%;
+        padding: 9px 20px;
+        border: 2px solid #4A7FBD;
+        letter-spacing: 1px;
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+    .text-buttonone:hover {
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        color: #4A7FBD;
+        background-color: white;
+    }
+
+    .mtitle {
+        margin-left: 43% !important;
+    }
+
+    .cardbody {
+        margin-left: 30% !important;
+    }
+
+    .logcolspan {
+        visibility: hidden;
+        display: none;
+    }
+
+    .lognow {
+        visibility: hidden;
+        display: none;
+    }
+
+    .loginsizt {
+        padding-left: 25% !important;
+        padding-right: 25% !important;
+    }
+}
+
+@media (min-width:1025px) and (max-width:1200px) {
+.text-button {
+        margin-top: 20px;
+        /* margin-bottom: 79px; */
+        margin-bottom: 1.5rem;
+        border-radius: 17px;
+        background-color: #4A7FBD;
+        color: #ffff;
+        font-weight: 500;
+        text-decoration: none;
+        list-style: none;
+        max-width: 35%;
+        margin-left: 30%;
+        padding: 7px 12px;
+        text-align: center;
+        border: 2px solid #4A7FBD;
+        letter-spacing: 1px;
+        font-size: 17px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+    .text-button:hover {
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        color: #4A7FBD;
+        background-color: white;
+    }
+
+    .headingone {
+        margin-left: 0%;
+        font-size: 2.4rem;
+        color: #4A7FBD;
+        font-weight: 600;
+    }
+
+    .linkspaning {
+        color: red;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    .tis {
+        margin-top: 1rem;
+    }
+
+    .logspacing {
+        margin-bottom: 4% !important;
+        text-align: center;
+    }
+
+         .form_bodyi {
+             display: flex;
+             justify-content: center;
+             align-items: center;
+         }
+    
+         .headingtwo {
+             /* margin-left: 10%; */
+             font-size: 1.7rem;
+             color: #4A7FBD;
+             font-weight: 600;
+             padding: 0% !important;
+             margin: 0% !important;
+             margin-top: 10% !important;
+             margin-bottom: 2% !important;
+         }
+    
+         .form_divi {
+             margin: 0% !important;
+             padding: 0% !important;
+         }
+    
+         .form_bodyi {
+             text-align: center !important;
+         }
+    
+         .formlogtwoy {
+             display: flex;
+             justify-content: center;
+             align-items: center;
+         }
+    
+         .rowele {
+             width: 100%;
+         }
+    
+         .forlet {
+             margin: 0% !important;
+             padding: 0% !important;
+         }
+    
+         .mbutton {
+             margin-right: 30%;
+         }
+    
+         .clsignp {
+             visibility: hidden;
+             display: none;
+         }
+
+    .tisi {
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .passordError {
+        color: red !important;
+    }
+
+    .mabo {
+        margin-left: 6% !important;
+        border-radius: 4% !important;
+        margin-top: 1% !important;
+    }
+
+    .mebo {
+        border-radius: 10% !important;
+    }
+
+    .mibo {
+        color: #4A7FBD !important;
+    }
+
+    .headingon {
+        margin-left: 30% !important;
+        font-size: 1.8rem;
+        color: #333;
+        margin-top: 2% !important;
+        margin-bottom: 2% !important;
+        padding-bottom: 3% !important;
+        font-weight: 600;
+    }
+
+    .already {
+        margin-left: 38% !important;
+        margin-bottom: 10% !important;
+        padding-bottom: 3rem !important;
+        font-weight: 650;
+    }
+
+    .text-buttonone {
+        margin-top: 20px;
+        /* margin-bottom: 79px; */
+        margin-bottom: 1.5rem;
+        border-radius: 17px;
+        background-color: #4A7FBD;
+        color: #ffff;
+        font-weight: 500;
+        text-decoration: none;
+        list-style: none;
+        white-space: inherit;
+        min-width: 65% !important;
+        margin-left: 30%;
+        padding: 9px 20px;
+        border: 2px solid #4A7FBD;
+        letter-spacing: 1px;
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+    .text-buttonone:hover {
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        color: #4A7FBD;
+        background-color: white;
+    }
+
+    .mtitle {
+        margin-left: 43% !important;
+    }
+
+    .cardbody {
+        margin-left: 30% !important;
+    }
+
+    .logcolspan {
+        visibility: hidden;
+        display: none;
+    }
+
+    .lognow {
+        visibility: hidden;
+        display: none;
+    }
+
+    .loginsizt {
+        padding-left: 32% !important;
+        padding-right: 32% !important;
+    }
+}
+
+@media (min-width:1201px) and (max-width: 1300px) {
+.text-button {
+        margin-top: 20px;
+        /* margin-bottom: 79px; */
+        margin-bottom: 1.5rem;
+        border-radius: 17px;
+        background-color: #4A7FBD;
+        color: #ffff;
+        font-weight: 500;
+        text-decoration: none;
+        list-style: none;
+        max-width: 35%;
+        margin-left: 30%;
+        padding: 7px 12px;
+        text-align: center;
+        border: 2px solid #4A7FBD;
+        letter-spacing: 1px;
+        font-size: 17px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+    .text-button:hover {
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        color: #4A7FBD;
+        background-color: white;
+    }
+
+    .headingone {
+        margin-left: 0%;
+        font-size: 2.4rem;
+        color: #4A7FBD;
+        font-weight: 600;
+    }
+
+    .linkspaning {
+        color: red;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    .tis {
+        margin-top: 1rem;
+    }
+
+    .logspacing {
+        margin-bottom: 3% !important;
+        text-align: center;
+    }
+
+         .form_bodyi {
+             display: flex;
+             justify-content: center;
+             align-items: center;
+         }
+    
+         .headingtwo {
+             /* margin-left: 10%; */
+             font-size: 1.7rem;
+             color: #4A7FBD;
+             font-weight: 600;
+             padding: 0% !important;
+             margin: 0% !important;
+             margin-top: 10% !important;
+             margin-bottom: 2% !important;
+             margin-left: 14%!important;
+         }
+    
+         .form_divi {
+             margin: 0% !important;
+             padding: 0% !important;
+         }
+    
+         .form_bodyi {
+             text-align: center !important;
+         }
+    
+         .formlogtwoy {
+             display: flex;
+             justify-content: center;
+             align-items: center;
+         }
+    
+         .rowele {
+             width: 120%;
+         }
+    
+         .forlet {
+             margin: 0% !important;
+             padding: 0% !important;
+         }
+    
+         .mbutton {
+             margin-right: 17%;
+         }
+    
+         .clsignp {
+             visibility: hidden;
+             display: none;
+         }
+
+    .tisi {
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .passordError {
+        color: red !important;
+    }
+
+    .mabo {
+        margin-left: 6% !important;
+        border-radius: 4% !important;
+        margin-top: 1% !important;
+    }
+
+    .mebo {
+        border-radius: 10% !important;
+    }
+
+    .mibo {
+        color: #4A7FBD !important;
+    }
+
+    .headingon {
+        margin-left: 30% !important;
+        font-size: 1.8rem;
+        color: #333;
+        margin-top: 2% !important;
+        margin-bottom: 2% !important;
+        padding-bottom: 3% !important;
+        font-weight: 600;
+    }
+
+    .already {
+        margin-left: 43% !important;
+        margin-bottom: 10% !important;
+        padding-bottom: 3rem !important;
+        font-weight: 650;
+    }
+
+    .text-buttonone {
+        margin-top: 20px;
+        /* margin-bottom: 79px; */
+        margin-bottom: 1.5rem;
+        border-radius: 17px;
+        background-color: #4A7FBD;
+        color: #ffff;
+        font-weight: 500;
+        text-decoration: none;
+        list-style: none;
+        white-space: inherit;
+        min-width: 65% !important;
+        margin-left: 30%;
+        padding: 9px 20px;
+        border: 2px solid #4A7FBD;
+        letter-spacing: 1px;
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+    .text-buttonone:hover {
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        color: #4A7FBD;
+        background-color: white;
+    }
+
+    .mtitle {
+        margin-left: 43% !important;
+    }
+
+    .cardbody {
+        margin-left: 30% !important;
+    }
+
+    .logcolspan {
+        visibility: hidden;
+        display: none;
+    }
+
+    .lognow {
+        visibility: hidden;
+        display: none;
+    }
+
+    .loginsizt {
+        padding-left: 32% !important;
+        padding-right: 32% !important;
+    }
+}
+
+@media (min-width:1301px) and (max-width:1590px) {
+    .text-button {
+            margin-top: 20px;
+            /* margin-bottom: 79px; */
+            margin-bottom: 1.5rem;
+            border-radius: 17px;
+            background-color: #4A7FBD;
+            color: #ffff;
+            font-weight: 500;
+            text-decoration: none;
+            list-style: none;
+            max-width: 35%;
+            margin-left: 30%;
+            padding: 7px 12px;
+            text-align: center;
+            border: 2px solid #4A7FBD;
+            letter-spacing: 1px;
+            font-size: 17px;
+            font-weight: 500;
+            cursor: pointer;
+        }
+    
+        .text-button:hover {
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            color: #4A7FBD;
+            background-color: white;
+        }
+    
+        .headingone {
+            margin-left: 0%;
+            font-size: 2.4rem;
+            color: #4A7FBD;
+            font-weight: 600;
+        }
+    
+        .linkspaning {
+            color: red;
+            text-align: center;
+            font-size: 1.2rem;
+        }
+    
+        .tis {
+            margin-top: 1rem;
+        }
+    
+        .logspacing {
+            margin-bottom: 2% !important;
+            text-align: center;
+        }
+                .form_bodyi {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+        
+                .headingtwo {
+                    /* margin-left: 10%; */
+                    font-size: 1.9rem;
+                    color: #4A7FBD;
+                    font-weight: 600;
+                    padding: 0% !important;
+                    margin: 0% !important;
+                    margin-top: 10% !important;
+                    margin-bottom: 2% !important;
+                    margin-left: 2% !important;
+                }
+        
+                .form_divi {
+                    margin: 0% !important;
+                    padding: 0% !important;
+                }
+        
+                .form_bodyi {
+                    text-align: center !important;
+                }
+        
+                .formlogtwoy {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+        
+                .rowele {
+                    width: 120%;
+                    margin-top: -6.5%!important;
+                    margin-left: -9%!important;
+                }
+        
+                .forlet {
+                    margin: 0% !important;
+                    padding: 0% !important;
+                }
+        
+                .mbutton {
+                    margin-right: 27%;
+                    margin-top: -4%!important;
+                }
+        
+                .clsignp {
+                    visibility: hidden;
+                    display: none;
+                }
+    
+        .tisi {
+            margin-top: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+    
+        .passordError {
+            color: red !important;
+        }
+    
+        .mabo {
+            margin-left: 6% !important;
+            border-radius: 4% !important;
+            margin-top: 1% !important;
+        }
+    
+        .mebo {
+            border-radius: 10% !important;
+        }
+    
+        .mibo {
+            color: #4A7FBD !important;
+        }
+    
+        .headingon {
+            margin-left: 30% !important;
+            font-size: 1.8rem;
+            color: #333;
+            margin-top: 2% !important;
+            margin-bottom: 2% !important;
+            padding-bottom: 3% !important;
+            font-weight: 600;
+        }
+    
+        .already {
+            margin-left: 43% !important;
+            margin-bottom: 10% !important;
+            padding-bottom: 3rem !important;
+            font-weight: 650;
+        }
+    
+        .text-buttonone {
+            margin-top: 20px;
+            /* margin-bottom: 79px; */
+            margin-bottom: 1.5rem;
+            border-radius: 17px;
+            background-color: #4A7FBD;
+            color: #ffff;
+            font-weight: 500;
+            text-decoration: none;
+            list-style: none;
+            white-space: inherit;
+            min-width: 65% !important;
+            margin-left: 30%;
+            padding: 9px 20px;
+            border: 2px solid #4A7FBD;
+            letter-spacing: 1px;
+            font-size: 17px;
+            font-weight: 500;
+        }
+    
+        .text-buttonone:hover {
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            color: #4A7FBD;
+            background-color: white;
+        }
+    
+        .mtitle {
+            margin-left: 43% !important;
+        }
+    
+        .cardbody {
+            margin-left: 30% !important;
+        }
+    
+        .logcolspan {
+            visibility: hidden;
+            display: none;
+        }
+    
+        .lognow {
+            visibility: hidden;
+            display: none;
+        }
+    
+        .loginsizt {
+            padding-left: 32% !important;
+            padding-right: 32% !important;
+        }
+        .colloginz{
+            margin-top: -5.5%!important;
+        }
+}
+
+@media (min-width:1591px) and (max-width:1845px) {
+    .text-button {
+            margin-top: 20px;
+            /* margin-bottom: 79px; */
+            margin-bottom: 1.5rem;
+            border-radius: 17px;
+            background-color: #4A7FBD;
+            color: #ffff;
+            font-weight: 500;
+            text-decoration: none;
+            list-style: none;
+            max-width: 35%;
+            margin-left: 30%;
+            padding: 7px 12px;
+            text-align: center;
+            border: 2px solid #4A7FBD;
+            letter-spacing: 1px;
+            font-size: 20px;
+            font-weight: 500;
+            cursor: pointer;
+        }
+    
+        .text-button:hover {
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            color: #4A7FBD;
+            background-color: white;
+        }
+    
+        .headingone {
+            margin-left: 0%;
+            font-size: 2.8rem;
+            color: #4A7FBD;
+            font-weight: 600;
+        }
+    
+        .linkspaning {
+            color: red;
+            text-align: center;
+            font-size: 1.2rem;
+        }
+    
+        .tis {
+            margin-top: 1rem;
+        }
+    
+        .logspacing {
+            margin-bottom: 2% !important;
+            text-align: center;
+        }
+    
+                .form_bodyi {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+        
+                .headingtwo {
+                    /* margin-left: 10%; */
+                    font-size: 2.5rem;
+                    color: #4A7FBD;
+                    font-weight: 600;
+                    padding: 0% !important;
+                    margin: 0% !important;
+                    margin-top: 10% !important;
+                    margin-bottom: 2% !important;
+                    margin-left: 2% !important;
+                }
+        
+                .form_divi {
+                    margin: 0% !important;
+                    padding: 0% !important;
+                }
+        
+                .form_bodyi {
+                    text-align: center !important;
+                }
+        
+                .formlogtwoy {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+        
+                .rowele {
+                    width: 140%;
+                    margin-top: -6.5% !important;
+                    margin-left: -18% !important;
+                }
+        
+                .forlet {
+                    margin: 0% !important;
+                    padding: 0% !important;
+                }
+        
+                .mbutton {
+                    margin-right: 25%;
+                    margin-top: -5% !important;
+                }
+        
+                .clsignp {
+                    visibility: hidden;
+                    display: none;
+                }
+    
+        .tisi {
+            margin-top: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+    
+        .passordError {
+            color: red !important;
+        }
+    
+        .mabo {
+            margin-left: 6% !important;
+            border-radius: 4% !important;
+            margin-top: 1% !important;
+        }
+    
+        .mebo {
+            border-radius: 10% !important;
+        }
+    
+        .mibo {
+            color: #4A7FBD !important;
+        }
+    
+        .headingon {
+            margin-left: 30% !important;
+            font-size: 1.8rem;
+            color: #333;
+            margin-top: 2% !important;
+            margin-bottom: 2% !important;
+            padding-bottom: 3% !important;
+            font-weight: 600;
+        }
+    
+        .already {
+            margin-left: 44% !important;
+            margin-bottom: 10% !important;
+            padding-bottom: 3rem !important;
+            font-weight: 650;
+        }
+    
+        .text-buttonone {
+            margin-top: 20px;
+            /* margin-bottom: 79px; */
+            margin-bottom: 1.5rem;
+            border-radius: 17px;
+            background-color: #4A7FBD;
+            color: #ffff;
+            font-weight: 500;
+            text-decoration: none;
+            list-style: none;
+            white-space: inherit;
+            min-width: 65% !important;
+            margin-left: 30%;
+            padding: 9px 20px;
+            border: 2px solid #4A7FBD;
+            letter-spacing: 1px;
+            font-size: 17px;
+            font-weight: 500;
+        }
+    
+        .text-buttonone:hover {
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            color: #4A7FBD;
+            background-color: white;
+        }
+    
+        .mtitle {
+            margin-left: 43% !important;
+        }
+    
+        .cardbody {
+            margin-left: 30% !important;
+        }
+    
+        .logcolspan {
+            visibility: hidden;
+            display: none;
+        }
+    
+        .lognow {
+            visibility: hidden;
+            display: none;
+        }
+    
+        .loginsizt {
+            padding-left: 32% !important;
+            padding-right: 32% !important;
+        }
+    
+        .colloginz {
+            margin-top: -5.5% !important;
+        }
+}
+
+@media (min-width:1846px) {
+    .text-button {
+            margin-top: 20px;
+            /* margin-bottom: 79px; */
+            margin-bottom: 1.5rem;
+            border-radius: 17px;
+            background-color: #4A7FBD;
+            color: #ffff;
+            font-weight: 500;
+            text-decoration: none;
+            list-style: none;
+            max-width: 35%;
+            margin-left: 30%;
+            padding: 7px 12px;
+            text-align: center;
+            border: 2px solid #4A7FBD;
+            letter-spacing: 1px;
+            font-size: 20px;
+            font-weight: 500;
+            cursor: pointer;
+        }
+    
+        .text-button:hover {
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            color: #4A7FBD;
+            background-color: white;
+        }
+    
+        .headingone {
+            margin-left: 0%;
+            font-size: 2.8rem;
+            color: #4A7FBD;
+            font-weight: 600;
+        }
+    
+        .linkspaning {
+            color: red;
+            text-align: center;
+            font-size: 1.2rem;
+        }
+    
+        .tis {
+            margin-top: 1rem;
+        }
+    
+        .logspacing {
+            margin-bottom: 2% !important;
+            text-align: center;
+        }
+    
+                .form_bodyi {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+        
+                .headingtwo {
+                    /* margin-left: 10%; */
+                    font-size: 2.5rem;
+                    color: #4A7FBD;
+                    font-weight: 600;
+                    padding: 0% !important;
+                    margin: 0% !important;
+                    margin-top: 10% !important;
+                    margin-bottom: 2% !important;
+                    margin-left: 2% !important;
+                }
+        
+                .form_divi {
+                    margin: 0% !important;
+                    padding: 0% !important;
+                }
+        
+                .form_bodyi {
+                    text-align: center !important;
+                }
+        
+                .formlogtwoy {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+        
+                .rowele {
+                    width: 150%;
+                    margin-top: -6.5% !important;
+                    margin-left: -25% !important;
+                }
+        
+                .forlet {
+                    margin: 0% !important;
+                    padding: 0% !important;
+                }
+        
+                .mbutton {
+                    margin-right: 25%;
+                    margin-top: -5% !important;
+                }
+        
+                .clsignp {
+                    visibility: hidden;
+                    display: none;
+                }
+    
+        .tisi {
+            margin-top: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+    
+        .passordError {
+            color: red !important;
+        }
+    
+        .mabo {
+            margin-left: 6% !important;
+            border-radius: 4% !important;
+            margin-top: 1% !important;
+        }
+    
+        .mebo {
+            border-radius: 10% !important;
+        }
+    
+        .mibo {
+            color: #4A7FBD !important;
+        }
+    
+        .headingon {
+            margin-left: 30% !important;
+            font-size: 1.8rem;
+            color: #333;
+            margin-top: 2% !important;
+            margin-bottom: 2% !important;
+            padding-bottom: 3% !important;
+            font-weight: 600;
+        }
+    
+        .already {
+            margin-left: 44.8% !important;
+            margin-bottom: 10% !important;
+            padding-bottom: 3rem !important;
+            font-weight: 650;
+            font-size: 1.1rem;
+        }
+    
+        .text-buttonone {
+            margin-top: 20px;
+            /* margin-bottom: 79px; */
+            margin-bottom: 1.5rem;
+            border-radius: 17px;
+            background-color: #4A7FBD;
+            color: #ffff;
+            font-weight: 500;
+            text-decoration: none;
+            list-style: none;
+            white-space: inherit;
+            min-width: 65% !important;
+            margin-left: 30%;
+            padding: 9px 20px;
+            border: 2px solid #4A7FBD;
+            letter-spacing: 1px;
+            font-size: 17px;
+            font-weight: 500;
+        }
+    
+        .text-buttonone:hover {
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            color: #4A7FBD;
+            background-color: white;
+        }
+    
+        .mtitle {
+            margin-left: 43% !important;
+        }
+    
+        .cardbody {
+            margin-left: 30% !important;
+        }
+    
+        .logcolspan {
+            visibility: hidden;
+            display: none;
+        }
+    
+        .lognow {
+            visibility: hidden;
+            display: none;
+        }
+    
+        .loginsizt {
+            padding-left: 32% !important;
+            padding-right: 32% !important;
+        }
+    
+        .colloginz {
+            margin-top: -5.5% !important;
+        }
+}

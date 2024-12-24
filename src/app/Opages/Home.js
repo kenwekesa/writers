@@ -69,9 +69,9 @@ const Home = () => {
             </div>
           </div>
           <div>
-            <img src={frontmain} className="frontImg" alt="one" />
+            <img src="/images/frontmain.png" alt="one" />
           </div>
-          <img src={frontmain} className="frontImr" alt="one" />
+          <img src="/images/frontmain.png" alt="one" />
         </div>
         {/* <img src={ frontmain } className="frontImr" alt='one'/> */}
       </div>
@@ -82,7 +82,7 @@ const Home = () => {
           <h1 className="sub-t">Get Started</h1>
           <div className="row secrows">
             <div className="col-md-4 mb-md-0 mb-4 secon">
-              <img src={create} className="sec-2 simage" alt="one" />
+              <img src="/images/create.png" alt="one" />
               <div className="subT">
                 <p>
                   Create Account <br />{" "}
@@ -91,7 +91,7 @@ const Home = () => {
               </div>
             </div>
             <div className="col-md-4 mb-md-0 mb-4 secon">
-              <img src={submit} className="sec-2 simage" alt="one" />
+              <img src="/images/submit.png" alt="one" />
               <div className="subT">
                 <p>
                   Submit Application <br />
@@ -103,7 +103,7 @@ const Home = () => {
               </div>
             </div>
             <div className="col-md-4 mb-md-0 mb-4 secon">
-              <img src={hired} className="sec-2 simage" alt="one" />
+              <img src="/images/hired.png" alt="one" />
               <div className="subT">
                 <p>
                   Hired <br />{" "}
@@ -166,24 +166,24 @@ const Home = () => {
             <div className="col-md-4 mb-md-0 mb-4">
               <ul className="list-unstyled subone">
                 <h6>
-                  <img src={s8} className="fa" alt="icon" /> &nbsp;&nbsp;
-                  Finance & Economics
+                  <img src="/images/s8.png" alt="one" />
+                  &nbsp;&nbsp; Finance & Economics
                 </h6>
                 <h6>
-                  <img src={s2} className="fa" alt="icon" /> &nbsp;&nbsp; HR &
-                  Management
+                  <img src="/images/s2.png" className="fa" alt="icon" />
+                  &nbsp;&nbsp; HR & Management
                 </h6>
                 <h6>
-                  <img src={s15} className="fa" alt="icon" /> &nbsp;&nbsp;
-                  History & Archeology
+                  <img src="/images/s15.png" className="fa" alt="icon" />{" "}
+                  &nbsp;&nbsp; History & Archeology
                 </h6>
                 <h6>
-                  <img src={s5} className="fa" alt="icon" /> &nbsp;&nbsp;
-                  Business Studies
+                  <img src="/images/s5.png" className="fa" alt="icon" />
+                  &nbsp;&nbsp; Business Studies
                 </h6>
                 <h6>
-                  <img src={s3} className="fa" alt="icon" /> &nbsp;&nbsp; Law &
-                  Sociology
+                  <img src="/images/s3.png" className="fa" alt="icon" />
+                  &nbsp;&nbsp; Law & Sociology
                 </h6>
               </ul>
             </div>
@@ -191,24 +191,24 @@ const Home = () => {
             <div className="col-md-4 mb-md-0 mb-4">
               <ul className="list-unstyled subtwo">
                 <h6>
-                  <img src={s11} className="fa" alt="icon" /> &nbsp;&nbsp;
-                  Mathematics
+                  <img src="/images/s11.png" alt="icon" />
+                  &nbsp;&nbsp; Mathematics
                 </h6>
                 <h6>
-                  <img src={s9} className="fa" alt="icon" /> &nbsp;&nbsp; Data
-                  Analysis
+                  <img src="/images/s9.png" className="fa" alt="icon" />{" "}
+                  &nbsp;&nbsp; Data Analysis
                 </h6>
                 <h6>
-                  <img src={s12} className="fa" alt="icon" /> &nbsp;&nbsp;
-                  Health Sciences
+                  <img src="/images/s12.png" className="fa" alt="icon" />
+                  &nbsp;&nbsp; Health Sciences
                 </h6>
                 <h6>
-                  <img src={s10} className="fa" alt="icon" /> &nbsp;&nbsp;
-                  Computer science
+                  <img src="/images/s10.png" className="fa" alt="icon" />{" "}
+                  &nbsp;&nbsp; Computer science
                 </h6>
                 <h6>
-                  <img src={s4} className="fa" alt="icon" /> &nbsp;&nbsp;
-                  HTML,CSS & JAVA
+                  <img src="/images/s4.png" className="fa" alt="icon" />{" "}
+                  &nbsp;&nbsp; HTML,CSS & JAVA
                 </h6>
               </ul>
             </div>
@@ -216,24 +216,24 @@ const Home = () => {
             <div className="col-md-4 mb-md-0 mb-4">
               <ul className="list-unstyled subthree">
                 <h6>
-                  <img src={s6} className="fa" alt="icon" /> &nbsp;&nbsp;
-                  English Literature
+                  <img src="/images/s6.png" className="fa" alt="icon" />{" "}
+                  &nbsp;&nbsp; English Literature
                 </h6>
                 <h6>
-                  <img src={s14} className="fa" alt="icon" /> &nbsp;&nbsp; Art &
-                  Education
+                  <img src="/images/s14.png" className="fa" alt="icon" />
+                  &nbsp;&nbsp; Art & Education
                 </h6>
                 <h6>
-                  <img src={s7} className="fa" alt="icon" /> &nbsp;&nbsp;
-                  Journalism
+                  <img src="/images/s7.png" className="fa" alt="icon" />{" "}
+                  &nbsp;&nbsp; Journalism
                 </h6>
                 <h6>
-                  <img src={s1} className="fa" alt="icon" /> &nbsp;&nbsp;
-                  Engineering
+                  <img src="/images/s1.png" className="fa" alt="icon" />{" "}
+                  &nbsp;&nbsp; Engineering
                 </h6>
                 <h6>
-                  <img src={s13} className="fa fe" alt="icon" /> &nbsp;&nbsp;
-                  Nursing
+                  <img src="/images/s13.png" className="fa fe" alt="icon" />{" "}
+                  &nbsp;&nbsp; Nursing
                 </h6>
               </ul>
             </div>

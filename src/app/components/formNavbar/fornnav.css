@@ -1,0 +1,137 @@
+.logimg{
+    height: 40px;
+    width: 40px;
+}
+.logpara{
+    font-size: 1.7rem!important;
+    font-weight: 800;
+}
+@media (max-width:319px) {
+.logimg {
+        height: 25px;
+        width: 25px;
+    }
+
+    .logpara {
+        font-size: 1rem !important;
+        font-weight: 800;
+    }
+}
+@media (min-width:320px) and (max-width:480px) {
+   .logimg {
+        height: 30px;
+        width: 30px;
+    }
+
+    .logpara {
+        font-size: 1.4rem !important;
+        font-weight: 800;
+    }
+}
+
+@media (min-width:481px) and (max-width:599px) {
+  .logimg {
+        height: 35px;
+        width: 35px;
+    }
+
+    .logpara {
+        font-size: 1.6rem !important;
+        font-weight: 800;
+    }
+}
+
+@media (min-width:600px) and (max-width:768px) {
+    .logimg {
+            height: 35px;
+            width: 35px;
+        }
+    
+        .logpara {
+            font-size: 1.6rem !important;
+            font-weight: 800;
+        }
+}
+
+@media (min-width:769px) and (max-width:990px) {
+    .logimg {
+            height: 35px;
+            width: 35px;
+        }
+    
+        .logpara {
+            font-size: 1.6rem !important;
+            font-weight: 800;
+        }
+}
+
+@media (min-width:991px) and (max-width:1024px) {
+    .logimg {
+            height: 38px;
+            width: 38px;
+        }
+    
+        .logpara {
+            font-size: 1.7rem !important;
+            font-weight: 800;
+        }
+}
+
+@media (min-width:1025px) and (max-width:1200px) {
+.logimg {
+        height: 40px;
+        width: 40px;
+    }
+
+    .logpara {
+        font-size: 1.75rem !important;
+        font-weight: 800;
+    }
+}
+
+@media (min-width:1201px) and (max-width: 1300px) {
+ .logimg {
+        height: 40px;
+        width: 40px;
+    }
+
+    .logpara {
+        font-size: 1.75rem !important;
+        font-weight: 800;
+    }
+}
+ @media (min-width:1301px) and (max-width:1590px) {
+  .logimg {
+        height: 42px;
+        width: 42px;
+    }
+
+    .logpara {
+        font-size: 1.8rem !important;
+        font-weight: 800;
+    }
+ }
+
+ @media (min-width:1591px) and (max-width:1845px) {
+  .logimg {
+        height: 44px;
+        width: 44px;
+    }
+
+    .logpara {
+        font-size: 1.9rem !important;
+        font-weight: 800;
+    }
+ }
+
+ @media (min-width:1846px) {
+.logimg {
+        height: 50px;
+        width: 50px;
+    }
+
+    .logpara {
+        font-size: 2.2rem !important;
+        font-weight: 800;
+    }
+ }
